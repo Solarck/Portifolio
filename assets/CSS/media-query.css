@@ -1,0 +1,16 @@
+@media screen and (max-width:750px) {
+    .header-container {
+        flex-direction: column;
+    }
+
+    .profile-image {
+        margin-top: 50px;
+        margin-bottom: -35px;
+    }
+
+    .avatar {
+        width: 270px;
+        height: 250px;
+        border-radius: 100%;
+    }
+}
