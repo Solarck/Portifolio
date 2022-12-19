@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'Cera Round Pro Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Cera Round Pro Regular'), url('../fonts/CeraRoundProRegular.woff') format('woff');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    font-family: 'Fredoka One', cursive;
+    background: rgb(11, 11, 11);
+    color: #fff;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+/* Foto */
+.profile-image {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.avatar {
+    display: block;
+    width: 270px;
+    height: 250px;
+    border-radius: 100%;
+    border: 3px solid #fff;
+}
+/* Nome*/
+.name {
+    margin-top: 100px;
+    margin-left: 25px;
+}
+
+/* Localização */
+.location {
+    display: inline-block;
+    margin-left: 25px;
+
+}
+
+.icon {
+    display: inline-block;
+    width: 25px;
+}
+
+/* Sobre mim */
+.description {
+    margin-top: 18px;
+    margin: 25px;
+
+}
+
+/* Redes sociais */
+.social-media {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.link {
+    width: 30px;
+    margin: 0px 8px 0px 0px;
+}
+
+button {
+    background: none;
+    border: none;
+}
+
+.contact-me {
+    margin-top: 25px;
+    display: flex;
+}
+
+/* Curriculo */
+.download {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background: rgba(219, 79, 133, 0.863);
+    border-radius: 18px;
+    width: 150px;
+    height: 50px;
+    margin-left: 20px;
+    padding-top: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.cv {
+    font-size: 19px;
+    color: #fff;
+}
+
+/* download icon png*/
+.download-cv-icon {
+    text-align: center;
+    width: 20px;
+    margin-left: 5px;
+}
+
+/* Gmail png*/
+.gmail-button {
+    background: rgba(219, 79, 133, 0.863);
+    border-radius: 18px;
+    width: 100px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+.gmail {
+    width: 30px;
+}
