@@ -1,9 +1,4 @@
-@font-face {
-    font-family: 'Cera Round Pro Regular';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Cera Round Pro Regular'), url('../fonts/CeraRoundProRegular.woff') format('woff');
-}
+@import url('https://fonts.googleapis.com/css2?family= Itim & display = swap');
 
 * {
     margin: 0;
@@ -12,7 +7,7 @@
 
 body {
     display: flex;
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Itim', sans-serif;
     background: rgb(11, 11, 11);
     color: #fff;
 }
@@ -42,6 +37,7 @@ body {
 .name {
     margin-top: 100px;
     margin-left: 25px;
+    font-size: 30px;
 }
 
 /* Localização */
@@ -59,7 +55,7 @@ body {
 .description {
     margin-top: 18px;
     margin: 25px;
-
+    font-size: 18px;
 }
 
 /* Redes sociais */
@@ -138,6 +134,7 @@ a {
 .skill-title {
     font-size: 35px;
     display: inline-block;
+    margin-bottom: 20px;
 }
 
 .code {
@@ -146,12 +143,38 @@ a {
     margin-left: 5px;
 }
 
-.html {
-    justify-content: start;
-    margin-top: 20px;
+/* linguagens */
+.front-end {
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+
+}
+
+.language {
+    display: flex;
+    justify-content: center;
+    background: rgb(11, 11, 11);
+    border: 2px solid rgba(255, 255, 255, 0.103);
+    border-radius: 10px;
+    width: 50%;
+    height: 150px;
+    margin: 5px 0px 0px 10px;
+}
+
+.language:hover {
+    border: 2px solid #ffff;
+}
+
+.html,
+.css,
+.js {
     width: 50px;
 }
 
-.lang-title {
-    display: inline-block;
+.php {
+    width: 70px;
 }
