@@ -13,4 +13,9 @@
         height: 250px;
         border-radius: 100%;
     }
+
+    .front-end {
+        width: 90%;
+    }
+    
 }
