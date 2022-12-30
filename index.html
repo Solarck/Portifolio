@@ -28,8 +28,10 @@
                 </div>
 
                 <section>
-                    <p class="description">Olá! tenho 20 anos, sou desenvolvedor Front-End. Estudo programação voltada para web, apps e games
-                         no curso técnico da instituição AeroNet Informática & Idiomas. Atualmente estou no módulo web na qual atuo com habilidades em Html, Css, JavaScript, Php e MySQL.
+                    <p class="description">Olá! tenho 20 anos, sou desenvolvedor Front-End. Estudo programação voltada
+                        para web, apps e games
+                        no curso técnico da instituição AeroNet Informática & Idiomas. Atualmente estou no módulo web na
+                        qual atuo com habilidades em Html, Css, JavaScript, Php e MySQL.
                     </p>
                 </section>
 
@@ -55,12 +57,15 @@
                 </nav>
 
                 <div class="contact-me">
-                    <button class="download">
-                        <a href="#">
-                            <p class="cv">Baixar CV</p>
-                        </a>
-                        <img src="assets/imgs/dowload-icon.png" alt="download" class="download-cv-icon">
-                    </button>
+                    <a>
+                        <button class="download">
+                            <a href="#">
+                                <p class="cv">Baixar CV</p>
+                            </a>
+                            <img src="assets/imgs/dowload-icon.png" alt="download" class="download-cv-icon">
+                        </button>
+                    </a>
+
 
                     <button class="gmail-button">
                         <a href="mailto:fcstavares55@gmail.com">
@@ -78,13 +83,15 @@
                 <img src="assets/imgs/code-file.png" alt="code-file" class="code">
             </div>
 
-            <section class="front-end">
+            <section class="front-end" id="html">
                 <div class="language">
-                    <img src="assets/imgs/html.svg" alt="html-svg" class="html">
+                    <img src="assets/imgs/html.svg" alt="html-svg" class="html" onmousemove="entrar(html)"
+                        onmouseout="sair()">
                 </div>
 
                 <div class="language">
-                    <img src="assets/imgs/css.svg" alt="css-svg" class="css">
+                    <img src="assets/imgs/css.svg" alt="css-svg" class="css" onmousemove="entrar(css)"
+                        onmouseout="sair()">
                 </div>
             </section>
 
@@ -114,25 +121,49 @@
             <img src="assets/imgs/document.png" alt="icon-projects" class="document-icon">
         </div>
 
-        <!-- <section class="projects">
+        <section class="all-projects">
             <div class="card-project">
                 <div>
                     <img src="assets/imgs/calculator.png" alt="calculator" class="img">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, quisquam rerum? Cumque debitis ea et nihil, quisquam distinctio eaque maxime, suscipit a molestiae rerum! Sint necessitatibus vero accusamus eligendi cupiditate.</p>
-                    <button class="teste"><a href="https://solarck.github.io/Calculadora/"></a>Demo</button>
+                    <h1 class="project">Calculadora</h1>
+                    <button class="link-projects"><a href="https://solarck.github.io/Calculadora/">Demo</a></button>
+                    <button class="link-projects"><a href="https://github.com/Solarck/Calculadora"></a>Codigo</button>
                 </div>
             </div>
 
             <div class="card-project">
                 <div>
-                    <img src="assets/imgs/calculator.png" alt="calculator" class="img">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, quisquam rerum? Cumque debitis ea et nihil, quisquam distinctio eaque maxime, suscipit a molestiae rerum! Sint necessitatibus vero accusamus eligendi cupiditate.</p>
-                    <button class="teste"><a href="https://solarck.github.io/Calculadora/"></a>Demo</button>
+                    <img src="assets/imgs/tela-de-login.jpg" alt="tela-de-login" class="img">
+                    <h1 class="project">Tela de login</h1>
+                    <button class="link-projects"><a href="https://solarck.github.io/Tela-Login/">Demo</a></button>
+                    <button class="link-projects"><a href="https://github.com/Solarck/Tela-Login"></a>Codigo</button>
                 </div>
             </div>
-        </section> -->
+        </section>
 
+        <section class="all-projects">
+            <div class="card-project">
+                <div>
+                    <img src="assets/imgs/relogio-digital.png" alt="Relogio-Digital" class="img">
+                    <h1 class="project">Relogio Digital</h1>
+                    <button class="link-projects"><a href="https://solarck.github.io/Relogio-Digital/">Demo</a></button>
+                    <button class="link-projects"><a href="https://github.com/Solarck/Relogio-Digital"></a>Codigo</button>
+
+                </div>
+            </div>
+
+            <div class="card-project">
+                <div>
+                    <img src="assets/imgs/langing-page-bootstrap.png" alt="langing-page" class="img">
+                    <h1 class="project">Landing page</h1>
+                    <button class="link-projects"><a href="https://solarck.github.io/Bootstrap/">Demo</a></button>
+                    <button class="link-projects"><a href="https://github.com/Solarck/Bootstrap"></a>Codigo</button>
+
+                </div>
+            </div>
+        </section>
     </main>
+    <script src="script.js"></script>
 </body>
 
 </html>

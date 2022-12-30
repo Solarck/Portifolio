@@ -3,6 +3,13 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    display: flex;
+    justify-content: center;
 }
 
 body {
@@ -122,6 +129,11 @@ a {
     width: 30px;
 }
 
+.download:hover,
+.gmail-button:hover {
+    background: rgb(175, 21, 80);
+}
+
 /* Habilidades */
 .skills {
     display: flex;
@@ -173,16 +185,16 @@ a {
 
 .css,
 .php,
-.mysql{
+.mysql {
     width: 80px;
 }
 
 .js,
-.html{
+.html {
     width: 69px;
 }
 
-.bootstrap{
+.bootstrap {
     width: 58px;
     height: 57px;
 }
@@ -197,7 +209,7 @@ a {
     margin-bottom: 10px;
 }
 
-.title-projects{
+.title-projects {
     margin-top: 30px;
     display: flex;
     justify-content: center;
@@ -210,24 +222,46 @@ a {
 }
 
 /* Cards */
-.card-project{
+.all-projects {
     display: flex;
     justify-content: center;
+    flex-direction: row;
+}
+
+.card-project {
+    display: flex;
+    justify-content: center;
+    text-align: center;
     background: rgb(18, 18, 18);
     border: 3px solid rgba(255, 255, 255, 0.103);
     border-radius: 10px;
     width: 350px;
-    height: 500px;
-    margin: 15px;
+    height: 350px;
+    margin: 20px;
 }
 
-.card-project:hover{
+.card-project:hover {
     border: 2px solid rgba(255, 255, 255, 0.514);
 }
 
-.img{
+.img {
     margin: 15px;
     width: 90%;
     height: 200px;
+    border-radius: 10px;
 }
 
+.link-projects {
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(255, 0, 68);
+    color: #FFFF;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+a {
+    color: inherit;
+}

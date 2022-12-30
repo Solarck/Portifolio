@@ -17,5 +17,26 @@
     .front-end {
         width: 90%;
     }
+
+    .all-projects {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .card-project {
+        width: 300px;
+        height: 300px;
+        margin: 20px;
+        
+    }
+
+    .img {
+        margin: 15px;
+        width: 90%;
+        height: 150px;
+        border-radius: 10px;
+    }
     
 }
