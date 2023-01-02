@@ -1,4 +1,4 @@
-F<h1 align="center">
+<h1 align="center">
   💻<br>Portfólio - Fernando Carlos
 </h1>
 
@@ -8,11 +8,6 @@ F<h1 align="center">
 <h4 align="center"><a href="https://solarck.github.io/Portifolio/">Clique para visualizar meu projeto</a></h4>
 
 
-## 💼 Tecnologias utilizadas
 
-Para o desenvolvimento do portifólio utilizei as seguintes tecnologias:
-
-- HTML;
-- Css;
 
 
