@@ -1,4 +1,4 @@
-<h1 align="center">
+F<h1 align="center">
   💻<br>Portfólio - Fernando Carlos
 </h1>
 
@@ -14,4 +14,5 @@ Para o desenvolvimento do portifólio utilizei as seguintes tecnologias:
 
 - HTML;
 - Css;
-- JavaScript;
+
+
