@@ -79,12 +79,15 @@ body {
 
 /* ajustes botões */
 button {
+    cursor: pointer;
     border: none;
 }
 
-.social-media button {
+.social-media button,
+.social-media button:hover{
     background: none;
 }
+
 
 button:hover {
     background: rgb(175, 21, 80);
