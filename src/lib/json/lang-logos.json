@@ -1,0 +1,35 @@
+[
+    {
+        "alt": "html",
+        "src": "html.svg"
+    },
+    {
+        "alt": "css",
+        "src": "css.svg"
+    },
+    {
+        "alt": "javascript",
+        "src": "javascript.svg"
+    },
+    {
+        "alt": "typescript",
+        "src": "typescript.svg"
+    },
+    {
+        "alt": "nodejs",
+        "src": "nodeJs.svg"
+    },
+    {
+        "alt": "git",
+        "src": "git.svg"
+    },
+    {
+        "alt": "svelte",
+        "src": "svelte.svg"
+    },
+    {
+        "alt": "bootstrap",
+        "src": "bootstrap.svg"
+    }
+]
+

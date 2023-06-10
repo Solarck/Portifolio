@@ -1,0 +1,18 @@
+[
+    {
+        "alt": "nodejs",
+        "src": "nodeJs.svg"
+    },
+    {
+        "alt": "git",
+        "src": "git.svg"
+    },
+    {
+        "alt": "svelte",
+        "src": "svelte.svg"
+    },
+    {
+        "alt": "bootstrap",
+        "src": "bootstrap.svg"
+    }
+]
