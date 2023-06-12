@@ -1,7 +1,10 @@
 <script>
     import Technologies from "$lib/components/Technologies.svelte";
+    import Webkit from "$lib/components/Webkit.svelte";
     import Connections from "../lib/components/Connections.svelte";
 </script>
+
+<Webkit />
 
 <main>
     <header class="container">
@@ -14,10 +17,10 @@
             <p class="description">
                 Olá sou desenvolvedor Front-end, tenho 20 anos, ultimamente
                 tenho me dedicado, nas linguagens JavaScript e Typescript, em
-                aprimorar minhas habilidades de resolução de problemas e
-                Frameworks como Svelte (por curiosidade) e futuramente React.
-                Estudo Programação voltada a Web a pouco mais de 1 ano. Estou,
-                aberto e em, busca de uma primeira oportunidade de estágio na
+                aprimorar minhas habilidades de resolução de problemas e em
+                algumas tecnologias como Svelte, node.js e futuramente React com
+                Tailwind. Estudo Programação voltada a Web a pouco mais de 1
+                ano. Estou em busca de uma primeira oportunidade de estágio na
                 area.
             </p>
         </title>
@@ -36,32 +39,6 @@
 
     <div class="tech-container"><Technologies /></div>
 </main>
-
-<svelte:head>
-    <title>Solarck | Portifolio</title>
-
-    <style>
-        ::-webkit-scrollbar {
-            width: 13px;
-        }
-
-        ::-webkit-scrollbar-track {
-            background: rgb(48, 46, 46);
-            border-radius: 50px;
-        }
-
-        ::-webkit-scrollbar-thumb {
-            background: rgba(223, 84, 137, 0.349);
-            border-radius: 50px;
-        }
-
-        ::-webkit-scrollbar-thumb:hover {
-            background: rgba(223, 84, 137, 0.884);
-        }
-
-        /* © Fernando Carlos. All rigths reserved */
-    </style>
-</svelte:head>
 
 <style>
     :global(body) {

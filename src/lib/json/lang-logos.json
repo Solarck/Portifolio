@@ -1,35 +1,43 @@
 [
     {
         "alt": "html",
-        "src": "html.svg"
+        "src": "html.svg",
+        "class":"html"
     },
     {
         "alt": "css",
-        "src": "css.svg"
+        "src": "css.svg",
+        "class":"css"
     },
     {
         "alt": "javascript",
-        "src": "javascript.svg"
+        "src": "javascript.svg",
+        "class":"js"
     },
     {
         "alt": "typescript",
-        "src": "typescript.svg"
+        "src": "typescript.svg",
+        "class":"ts"
     },
     {
         "alt": "nodejs",
-        "src": "nodeJs.svg"
+        "src": "nodeJs.svg",
+        "class":"node"
     },
     {
         "alt": "git",
-        "src": "git.svg"
+        "src": "git.svg",
+        "class":"git"
     },
     {
         "alt": "svelte",
-        "src": "svelte.svg"
+        "src": "svelte.svg",
+        "class":"svelte"
     },
     {
         "alt": "bootstrap",
-        "src": "bootstrap.svg"
+        "src": "bootstrap.svg",
+        "class":"bootstrap"
     }
 ]
 

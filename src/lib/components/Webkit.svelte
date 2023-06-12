@@ -1,0 +1,25 @@
+<svelte:head>
+    <title>Solarck | Portifolio</title>
+
+    <style>
+        ::-webkit-scrollbar {
+            width: 13px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: rgb(48, 46, 46);
+            border-radius: 50px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: rgba(223, 84, 137, 0.349);
+            border-radius: 50px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: rgba(223, 84, 137, 0.884);
+        }
+
+        /* © Fernando Carlos. All rigths reserved */
+    </style>
+</svelte:head>

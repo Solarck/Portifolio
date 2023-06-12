@@ -4,7 +4,7 @@
 
 <div class="techs">
     {#each logos as logos (logos.alt)}
-        <div class="svg-techs">
+        <div class="svg-techs {logos.class}">
             <img
                 class="logos"
                 src="/technologies/{logos.src}"
@@ -30,15 +30,36 @@
         width: 100px;
         height: 100px;
         border-radius: 15px;
-        border: 1px solid rgba(240, 11, 99, 0.521);
         margin: 15px;
-    }
-
-    .svg-techs:hover {
-        border: 1px solid rgb(240, 11, 99);
     }
 
     .logos {
         width: 90px;
+    }
+
+    .html,
+    .svelte,
+    .git {
+        border: 1px solid #e44d26;
+    }
+
+    .css {
+        border: 1px solid #1172B8;
+    }
+
+    .js {
+        border: 1px solid #f7df1e;
+    }
+
+    .ts {
+        border: 1px solid #3178c6;
+    }
+
+    .node {
+        border: 1px solid #8CC84B;
+    }
+
+    .bootstrap {
+        border: 1px solid #563D7C;
     }
 </style>
