@@ -44,7 +44,7 @@
     }
 
     .css {
-        border: 1px solid #1172B8;
+        border: 1px solid #1172b8;
     }
 
     .js {
@@ -56,10 +56,10 @@
     }
 
     .node {
-        border: 1px solid #8CC84B;
+        border: 1px solid #8cc84b;
     }
 
     .bootstrap {
-        border: 1px solid #563D7C;
+        border: 1px solid #563d7c;
     }
 </style>

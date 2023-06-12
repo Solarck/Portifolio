@@ -1,4 +1,5 @@
 <script>
+    import Projects from "$lib/components/Projects.svelte";
     import Technologies from "$lib/components/Technologies.svelte";
     import Webkit from "$lib/components/Webkit.svelte";
     import Connections from "../lib/components/Connections.svelte";
@@ -37,7 +38,15 @@
         projetos.
     </p>
 
-    <div class="tech-container"><Technologies /></div>
+    <div class="tech-container">
+        <Technologies />
+    </div>
+
+    <div class="title-tech">
+        <h3 class="title">Projetos</h3>
+    </div>
+
+    <Projects />
 </main>
 
 <style>
@@ -114,7 +123,7 @@
     }
 
     .title {
-        color: rgb(240, 11, 99);
+        color:#ffff;
         margin: 0px;
         display: inline-block;
     }

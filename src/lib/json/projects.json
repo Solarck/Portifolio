@@ -1,0 +1,36 @@
+[
+    {
+        "title": "GitHub Perfis",
+        "description": "Primeiro projeto feito com Svelte, trata-se de site de pesquisa, e exibição de algumas informações de perfis do GitHub, utilizando a api do GitHub.",
+        "tag1": "#Svelte",
+        "tag2": "#Api",
+        "tag3": "#Typescript",
+        "tag4": "#Javascript",
+        "link": "https://github-perfis-qsq1.vercel.app/"
+    },
+    {
+        "title": "Buscador de Endereço",
+        "description": "Primeiro projeto feito com Svelte, trata-se de site de pesquisa, e exibição de algumas informações de perfis do GitHub, utilizando a api do GitHub.",
+        "tag1": "#Svelte",
+        "tag2": "#Api",
+        "tag3": "#Typescript",
+        "tag4": "#Javascript",
+        "link": "https://buscador-de-endereco-delta.vercel.app/"
+    },
+    {
+        "title": "Valida CPF",
+        "description": "Primeiro projeto feito com Svelte, trata-se de site de pesquisa, e exibição de algumas informações de perfis do GitHub, utilizando a api do GitHub.",
+        "tag1": "#Svelte",
+        "tag2": "#Typescript",
+        "tag3": "#Javascript",
+        "link": "https://validacao-cpf.vercel.app/"
+    },
+    {
+        "title": "Tela de Login",
+        "description": "Primeiro projeto feito com Svelte, trata-se de site de pesquisa, e exibição de algumas informações de perfis do GitHub, utilizando a api do GitHub.",
+        "tag1": "#HTML",
+        "tag2": "#CSS",
+        "tag3": "#Javascript",
+        "link": "https://solarck.github.io/Tela-Login/"
+    }
+]
