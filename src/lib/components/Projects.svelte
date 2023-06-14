@@ -15,10 +15,12 @@
                     <h4>{projects.tag3}</h4>
                 </div>
 
-                <button>
-                    <a href={projects.link} target="_blank">Vizualizar projeto</a>
-                </button>
+              
             </div>
+
+            <button>
+                <a href={projects.link} target="_blank">Vizualizar projeto</a>
+            </button>
         </div>
     {/each}
 </div>
@@ -38,8 +40,9 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-direction: column;
         width: 400px;
-        height: 320px;
+        height: 300px;
         margin: 20px;
         border: 2px solid rgba(199, 19, 88, 0.479);
         border-radius: 15px;
@@ -50,12 +53,12 @@
     }
 
     .conteudo {
-        margin: -100px 5px 0px 0px;
         height: 180px;
         width: 90%;
     }
 
     h1 {
+        margin: 10px;
         text-align: center;
         color: #ffff;
     }
@@ -68,12 +71,16 @@
 
     a {
         text-decoration: none;
-        color:  rgb(204, 0, 255);
+        color: rgba(204, 0, 255, 0.603);
+    }
+
+    a:hover{
+        color: rgb(204, 0, 255);
     }
 
     .tags {
-        width: 100%;
-        height: 50px;
+        margin-top: 25px;
+        width: 90%;
         display: flex;
     }
 
@@ -83,11 +90,11 @@
         margin: 10px 5px 0px 10px;
     }
 
-    button {
-        width: 200px;
+    button { 
+        margin: 50px 190px 0px 0px;
+        display: inline-block;
         font-size: 20px;
         height: 50px;
-        margin: 10px 0px 0px -12px;
         border: none;
         background: none;
     }

@@ -49,7 +49,7 @@
                 src="/icons/checked-icon.svg"
                 alt="checked-icon"
             />
-            
+
             Olhar crítico
         </li>
     </ul>
@@ -61,9 +61,8 @@
         justify-content: center;
         color: #ffff;
         width: 60%;
-        height: 250px;
         font-size: 25px;
-        margin-bottom: -80px;
+        margin-bottom: 0px;
     }
 
     li {

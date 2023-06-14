@@ -1,7 +1,9 @@
 <script>
+    import ContactMe from "$lib/components/ContactMe.svelte";
     import Projects from "$lib/components/Projects.svelte";
     import SoftSkils from "$lib/components/SoftSkils.svelte";
     import Technologies from "$lib/components/Technologies.svelte";
+    import Title from "$lib/components/Title.svelte";
     import Webkit from "$lib/components/Webkit.svelte";
     import Connections from "../lib/components/Connections.svelte";
 </script>
@@ -30,9 +32,7 @@
 
     <Connections />
 
-    <div class="title-tech">
-        <h3 class="title">Tecnologias</h3>
-    </div>
+    <Title>Tecnologias</Title>
 
     <p class="notice">
         Atualmente essas são as tecnologias que utilizo para desenvolver meus
@@ -43,26 +43,32 @@
         <Technologies />
     </div>
 
-    <div class="title-tech">
-        <h3 class="title">Soft Skills</h3>
-    </div>
+    <Title>Soft Skills</Title>
 
     <SoftSkils />
 
-    <div class="title-tech">
-        <h3 class="title">Projetos</h3>
-    </div>
+    <Title>Projects</Title>
 
     <Projects />
+
+    <Title>Deseja entrar em contato?</Title>
+
+    <ContactMe />
+
+    <footer>
+        <p>&copy; Fernando Carlos. All rigths reserved</p>
+    </footer>
 </main>
 
 <style>
+    @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
     :global(body) {
         margin: 0;
         background: rgb(11, 11, 11);
     }
 
     main {
+        font-family: "Roboto", sans-serif;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -112,7 +118,7 @@
     .description {
         margin-top: 0px;
         width: 580px;
-        font-size: 18px;
+        font-size: 18.5px;
         color: #ffffffa8;
     }
 
@@ -121,25 +127,16 @@
         justify-content: center;
     }
 
-    .title-tech {
-        display: flex;
-        flex-direction: row;
-        margin: 80px 0px 10px 0px;
-        font-size: 35px;
-        color: #ffff;
-    }
-
-    .title {
-        color:rgb(240, 11, 99);
-        margin: 0px;
-        display: inline-block;
-    }
-
     .notice {
         display: flex;
         justify-content: center;
         font-size: 23px;
         color: #ffffffa8;
         margin-bottom: 40px;
+    }
+
+    footer{
+        color: #ffff;
+        font-size: 18px;
     }
 </style>

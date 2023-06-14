@@ -20,7 +20,7 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        background: rgb(11, 11, 11);
+        background: none;
         width: 60%;
     }
 

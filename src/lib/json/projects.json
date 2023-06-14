@@ -27,7 +27,7 @@
     },
     {
         "title": "Tela de Login",
-        "description": "Projeto feito para fins de pratica do CSS e JavaScript. Tela de login simples, que apenas oculta ou mostra a senha digitada.",
+        "description": "Projeto feito para fins de pratica do CSS e JavaScript. Tela de login que oculta ou mostra a senha digitada.",
         "tag1": "#HTML",
         "tag2": "#CSS",
         "tag3": "#Javascript",
