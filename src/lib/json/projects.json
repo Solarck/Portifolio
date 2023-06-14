@@ -1,7 +1,7 @@
 [
     {
         "title": "GitHub Perfis",
-        "description": "Primeiro projeto feito com Svelte, trata-se de site de pesquisa, e exibição de algumas informações de perfis do GitHub, utilizando a api do GitHub.",
+        "description": "Primeiro projeto feito com Svelte, trata-se de site de pesquisa, e exibição de algumas informações de perfis do GitHub.",
         "tag1": "#Svelte",
         "tag2": "#Api",
         "tag3": "#Typescript",
@@ -10,7 +10,7 @@
     },
     {
         "title": "Buscador de Endereço",
-        "description": "Primeiro projeto feito com Svelte, trata-se de site de pesquisa, e exibição de algumas informações de perfis do GitHub, utilizando a api do GitHub.",
+        "description": "Trata-se de uma aplicação que retorna endereços, do brasil, conforme o cep. Utilizando a api ViaCep.",
         "tag1": "#Svelte",
         "tag2": "#Api",
         "tag3": "#Typescript",
@@ -19,7 +19,7 @@
     },
     {
         "title": "Valida CPF",
-        "description": "Primeiro projeto feito com Svelte, trata-se de site de pesquisa, e exibição de algumas informações de perfis do GitHub, utilizando a api do GitHub.",
+        "description": "Como o nome já sugere, é um validador de cpf. Na qual indica se é valido ou invalido.",
         "tag1": "#Svelte",
         "tag2": "#Typescript",
         "tag3": "#Javascript",
@@ -27,7 +27,7 @@
     },
     {
         "title": "Tela de Login",
-        "description": "Primeiro projeto feito com Svelte, trata-se de site de pesquisa, e exibição de algumas informações de perfis do GitHub, utilizando a api do GitHub.",
+        "description": "Projeto feito para fins de pratica do CSS e JavaScript. Tela de login simples, que apenas oculta ou mostra a senha digitada.",
         "tag1": "#HTML",
         "tag2": "#CSS",
         "tag3": "#Javascript",

@@ -16,7 +16,7 @@
                 </div>
 
                 <button>
-                    <a href={projects.link}>Vizualizar projeto</a>
+                    <a href={projects.link} target="_blank">Vizualizar projeto</a>
                 </button>
             </div>
         </div>
@@ -41,8 +41,12 @@
         width: 400px;
         height: 320px;
         margin: 20px;
-        border: 2px solid rgb(240, 11, 99);
+        border: 2px solid rgba(199, 19, 88, 0.479);
         border-radius: 15px;
+    }
+
+    .projects:hover {
+        border: 2px solid rgb(255, 0, 98);
     }
 
     .conteudo {
@@ -64,7 +68,7 @@
 
     a {
         text-decoration: none;
-        color: rgb(240, 11, 99);
+        color:  rgb(204, 0, 255);
     }
 
     .tags {
@@ -75,7 +79,7 @@
 
     h4 {
         font-size: 18px;
-        color: rgba(194, 41, 99, 0.61);
+        color: rgba(0, 132, 255, 0.726);
         margin: 10px 5px 0px 10px;
     }
 

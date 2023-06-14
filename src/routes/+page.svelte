@@ -1,5 +1,6 @@
 <script>
     import Projects from "$lib/components/Projects.svelte";
+    import SoftSkils from "$lib/components/SoftSkils.svelte";
     import Technologies from "$lib/components/Technologies.svelte";
     import Webkit from "$lib/components/Webkit.svelte";
     import Connections from "../lib/components/Connections.svelte";
@@ -41,6 +42,12 @@
     <div class="tech-container">
         <Technologies />
     </div>
+
+    <div class="title-tech">
+        <h3 class="title">Soft Skills</h3>
+    </div>
+
+    <SoftSkils />
 
     <div class="title-tech">
         <h3 class="title">Projetos</h3>
@@ -99,14 +106,14 @@
     .location {
         margin-top: 5px;
         font-size: 25px;
-        color: #ffffffa8;
+        color: #ffffff;
     }
 
     .description {
         margin-top: 0px;
         width: 580px;
         font-size: 18px;
-        color: #ffffff;
+        color: #ffffffa8;
     }
 
     .tech-container {
@@ -123,7 +130,7 @@
     }
 
     .title {
-        color:#ffff;
+        color:rgb(240, 11, 99);
         margin: 0px;
         display: inline-block;
     }

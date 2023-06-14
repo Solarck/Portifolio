@@ -7,7 +7,7 @@
 
     {#each icons as icons (icons.alt)}
         <button class="icon">
-            <a href={icons.href}>
+            <a href={icons.href} target="_blank">
                 <img src="/icons/{icons.src}" alt={icons.alt} />
             </a>
         </button>
