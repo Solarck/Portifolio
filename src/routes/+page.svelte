@@ -1,5 +1,6 @@
 <script>
     import ContactMe from "$lib/components/ContactMe.svelte";
+    import MediaQuery from "$lib/components/MediaQuery.svelte";
     import Projects from "$lib/components/Projects.svelte";
     import SoftSkils from "$lib/components/SoftSkils.svelte";
     import Technologies from "$lib/components/Technologies.svelte";
@@ -12,7 +13,9 @@
 
 <main>
     <header class="container">
-        <img class="profile-image" src="" alt="" />
+        <div class="container-img">
+            <img class="profile-image" src="" alt="" />
+        </div>
 
         <title class="info">
             <h1 class="name">Fernando Carlos</h1>
@@ -32,7 +35,7 @@
 
     <Connections />
 
-    <Title>Tecnologias</Title>
+    <Title tag="h2">Tecnologias</Title>
 
     <p class="notice">
         Atualmente essas são as tecnologias que utilizo para desenvolver meus
@@ -43,27 +46,30 @@
         <Technologies />
     </div>
 
-    <Title>Soft Skills</Title>
+    <Title tag="h1">Soft Skills</Title>
 
     <SoftSkils />
 
-    <Title>Projects</Title>
+    <Title tag="h1">Projects</Title>
 
     <Projects />
 
-    <Title>Deseja entrar em contato?</Title>
+    <Title tag="h1">Deseja entrar em contato?</Title>
 
     <ContactMe />
 
     <footer>
         <p>&copy; Fernando Carlos. All rigths reserved</p>
     </footer>
+
+    <MediaQuery />
 </main>
 
 <style>
     @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
     :global(body) {
         margin: 0;
+        padding: 0;
         background: rgb(11, 11, 11);
     }
 
@@ -129,14 +135,48 @@
 
     .notice {
         display: flex;
-        justify-content: center;
+        text-align: center;
         font-size: 23px;
         color: #ffffffa8;
         margin-bottom: 40px;
     }
 
-    footer{
+    footer {
         color: #ffff;
         font-size: 18px;
+    }
+
+    @media screen and (max-width: 750px) {
+        main {
+            background: none;
+            width: 100%;
+        }
+
+        header {
+            width: 90%;
+            flex-direction: row;
+        }
+
+        .container-img {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+        }
+
+        .description,
+        .name,
+        .location {
+            text-align: center;
+        }
+
+        .description {
+            width: 90%;
+            flex-wrap: wrap;
+        }
+
+        p {
+            margin: 10px;
+        }
     }
 </style>

@@ -4,7 +4,10 @@
     </button>
 
     <button>
-        <a href="" target="_blank">Currículo</a>
+        <a
+            href="https://drive.google.com/file/d/1Z-nD4eWjTelnhWoBe_9M5rVfKiJpQzEu/view?usp=sharing"
+            target="_blank">Currículo</a
+        >
     </button>
 </nav>
 
@@ -35,7 +38,7 @@
         border-bottom: 2px solid #ffffffa8;
     }
 
-    a{
+    a {
         text-decoration: none;
         color: #ffff;
     }

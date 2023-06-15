@@ -27,7 +27,7 @@
         border: none;
         width: 46px;
         height: 0%;
-        background: rgb(11, 11, 11);
+        background: none;
         margin-left: 3px;
     }
 
@@ -40,5 +40,22 @@
 
     .icon:hover {
         width: 54px;
+    }
+
+    @media screen and (max-width: 750px) {
+        .social-media {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 45%;
+        }
+
+        h1 {
+            display: none;
+        }
+
+        .icon {
+            margin-left: 5px;
+        }
     }
 </style>

@@ -33,7 +33,6 @@
         flex-wrap: wrap;
         flex-direction: row;
         width: 90%;
-        height: 800px;
     }
 
     .projects {
@@ -98,4 +97,7 @@
         border: none;
         background: none;
     }
+
+
+    
 </style>
