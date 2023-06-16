@@ -2,25 +2,31 @@
     import logos from "$lib/json/lang-logos.json";
 </script>
 
-<div class="techs">
-    {#each logos as logos (logos.alt)}
-        <div class="svg-techs {logos.class}">
-            <img
-                class="logos"
-                src="/technologies/{logos.src}"
-                alt={logos.alt}
-            />
-        </div>
-    {/each}
+<div class="tech-container">
+    <div class="techs">
+        {#each logos as logos (logos.alt)}
+            <div class="svg-techs {logos.class}">
+                <img
+                    class="logos"
+                    src="/technologies/{logos.src}"
+                    alt={logos.alt}
+                />
+            </div>
+        {/each}
+    </div>
 </div>
 
 <style>
+    .tech-container {
+        display: flex;
+        justify-content: center;
+    }
+    
     .techs {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        background: none;
         width: 60%;
     }
 
@@ -61,5 +67,11 @@
 
     .bootstrap {
         border: 1px solid #563d7c;
+    }
+
+    @media screen and (max-width: 750px) {
+        .techs {
+            width: 80%;
+        }
     }
 </style>

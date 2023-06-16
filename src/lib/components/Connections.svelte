@@ -25,14 +25,14 @@
 
     .icon {
         border: none;
-        width: 46px;
+        width: 45px;
         height: 0%;
         background: none;
         margin-left: 3px;
     }
 
     h1 {
-        margin: 10px 0px 0px 55px;
+        margin: 5px 0px 0px 55px;
         padding-bottom: 20px;
         display: inline-block;
         color: #fff;

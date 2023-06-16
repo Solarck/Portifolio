@@ -1,6 +1,5 @@
 <script>
     import ContactMe from "$lib/components/ContactMe.svelte";
-    import MediaQuery from "$lib/components/MediaQuery.svelte";
     import Projects from "$lib/components/Projects.svelte";
     import SoftSkils from "$lib/components/SoftSkils.svelte";
     import Technologies from "$lib/components/Technologies.svelte";
@@ -14,12 +13,12 @@
 <main>
     <header class="container">
         <div class="container-img">
-            <img class="profile-image" src="" alt="" />
+            <img class="profile-image" src="img-profile.jpg" alt="" />
         </div>
 
         <title class="info">
             <h1 class="name">Fernando Carlos</h1>
-            <h3 class="location">São Paulo, Brasil</h3>
+            <h3 class="location">São Paulo, Brasil.</h3>
 
             <p class="description">
                 Olá sou desenvolvedor Front-end, tenho 20 anos, ultimamente
@@ -42,9 +41,7 @@
         projetos.
     </p>
 
-    <div class="tech-container">
-        <Technologies />
-    </div>
+    <Technologies />
 
     <Title tag="h1">Soft Skills</Title>
 
@@ -61,8 +58,6 @@
     <footer>
         <p>&copy; Fernando Carlos. All rigths reserved</p>
     </footer>
-
-    <MediaQuery />
 </main>
 
 <style>
@@ -71,10 +66,10 @@
         margin: 0;
         padding: 0;
         background: rgb(11, 11, 11);
+        font-family: "Roboto", sans-serif;
     }
 
     main {
-        font-family: "Roboto", sans-serif;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -128,11 +123,6 @@
         color: #ffffffa8;
     }
 
-    .tech-container {
-        display: flex;
-        justify-content: center;
-    }
-
     .notice {
         display: flex;
         text-align: center;
@@ -144,6 +134,10 @@
     footer {
         color: #ffff;
         font-size: 18px;
+    }
+
+    img {
+        filter: grayscale(0.20);
     }
 
     @media screen and (max-width: 750px) {

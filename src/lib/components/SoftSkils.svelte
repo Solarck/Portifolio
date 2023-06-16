@@ -6,7 +6,7 @@
                 src="/icons/checked-icon.svg"
                 alt="checked-icon"
             />
-            Comunicação efetiva
+            Comunicação
         </li>
         <li>
             <img
@@ -77,5 +77,16 @@
 
     img {
         margin-left: 3px;
+    }
+
+    @media screen and (max-width: 750px) {
+        .container {
+            width: 100%;
+            font-size: 20px;
+        }
+
+        li {
+            margin: 0px 0px 20px 0px;
+        }
     }
 </style>

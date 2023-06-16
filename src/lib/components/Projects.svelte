@@ -8,14 +8,6 @@
             <div class="conteudo">
                 <h1>{projects.title}</h1>
                 <p>{projects.description}</p>
-
-                <div class="tags">
-                    <h4>{projects.tag1}</h4>
-                    <h4>{projects.tag2}</h4>
-                    <h4>{projects.tag3}</h4>
-                </div>
-
-              
             </div>
 
             <button>
@@ -41,7 +33,7 @@
         align-items: center;
         flex-direction: column;
         width: 400px;
-        height: 300px;
+        height: 250px;
         margin: 20px;
         border: 2px solid rgba(199, 19, 88, 0.479);
         border-radius: 15px;
@@ -54,6 +46,7 @@
     .conteudo {
         height: 180px;
         width: 90%;
+        margin: 10px;
     }
 
     h1 {
@@ -73,31 +66,17 @@
         color: rgba(204, 0, 255, 0.603);
     }
 
-    a:hover{
+    a:hover {
+        font-size: 21px;
         color: rgb(204, 0, 255);
     }
 
-    .tags {
-        margin-top: 25px;
-        width: 90%;
-        display: flex;
-    }
-
-    h4 {
-        font-size: 18px;
-        color: rgba(0, 132, 255, 0.726);
-        margin: 10px 5px 0px 10px;
-    }
-
-    button { 
-        margin: 50px 190px 0px 0px;
+    button {
+        width: 200px;
         display: inline-block;
         font-size: 20px;
         height: 50px;
         border: none;
         background: none;
     }
-
-
-    
 </style>
